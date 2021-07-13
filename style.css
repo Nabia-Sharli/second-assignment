@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+/* .................
+Styling Navigation Bar..........*/
+.main{
+    background-color: #2D25A0;
+    margin-top: 0;
+    padding: 0;
+}
+
+/* Banner Area */
+.banner{
+    display: flex;    
+}
+.half{
+    width: 50%;
+}
+.title{
+    margin-top: 180px;
+    margin-left: 156px;
+    color: white;
+}
+.title-1{
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+}
+.image img{
+    width: 556.01px;
+    height: 438px; 
+    margin-top: 153px;
+    margin-bottom: 84px;
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    padding: 50px 100px;
+}
+
+.player{
+    width: 330px;
+    height: 474px;
+    background-color: #fff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+}
+
+.player-image img{
+    width: 100%;
+}
+
+.player-intro h2{
+    font-size: 28px;
+    color: #18191F;
+    margin-bottom: 5px;
+}
+
+.player-intro p{
+    color: #6C6C6C;
+    margin-top: 0;
+}
+
+/* Players Date */
+/* .container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    margin-left: 180px;
+    margin-right: 210px; 
+    grid-row-gap: 40px;
+}
+.players{
+    background: white;
+    width: 330px;
+    height: 456px;
+    margin: 30px;
+    padding: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.player{
+    height: 180px ;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+.image-1{
+    background-image: url(images/players/player-1.png);
+}
+.image-2{
+    background-image: url(images/players/player-2.png);
+}
+.image-3{
+    background-image: url(images/players/player-3.png);
+}
+.image-4{
+    background-image: url(images/players/player-4.png);
+}
+.image-5{
+    background-image: url(images/players/player-5.png);
+}
+.image-6{
+    background-image: url(images/players/player-6.png);
+}
+.image-7{
+    background-image: url(images/players/player-7.png);
+}
+.image-8{
+    background-image: url(images/players/player-8.png);
+}
+.image-9{
+    background-image: url(images/players/player-9.png);
+}
+.image-10{
+    background-image: url(images/players/player-10.png);
+}
+.image-11{
+    background-image: url(images/players/player-11.png);
+}
+.image-12{
+    background-image: url(images/players/player-12.png);
+} */
+
+.logo img{
+    width: 483.87px;
+    height: 110px;  
+}
+.icon i{
+    background: #969bab63;
+    color: #969BAB;
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.footer-section{
+    text-align: center;
+}
