@@ -5,8 +5,6 @@ body{
     padding: 0;
    
 }
-/* .................
-Styling Navigation Bar..........*/
 .main{
     background-color: #2D25A0;
     margin-top: 0;
@@ -33,6 +31,8 @@ a{
     color:#fff;
     background-color: #E02C6D;
     padding: 10px 24px;
+    width: 173px;
+    height: 44px; 
 }
 .image img{
     width: 556.01px;
@@ -40,6 +40,9 @@ a{
     margin-top: 153px;
     margin-bottom: 84px;
 }
+
+
+/* Players Section */
 
 .players{
     display: grid;
@@ -72,65 +75,35 @@ a{
     margin-top: 0;
 }
 
-/* Players Date */
-/* .container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-content: center;
-    margin-left: 180px;
-    margin-right: 210px; 
-    grid-row-gap: 40px;
+/* .................
+Match section
+................... */
+.match{
+    display: flex;
 }
-.players{
-    background: white;
-    width: 330px;
-    height: 456px;
-    margin: 30px;
-    padding: 10px;
-    box-shadow: 10px 10px 40px gray;
+.match-blog{
+    padding-left: 182px;
+    padding-top: 150px;
 }
-.player{
-    height: 180px ;
-    margin-bottom: 15px;
-    background-size: cover;
+.match-title{
+    font-size: 48px;
 }
-.image-1{
-    background-image: url(images/players/player-1.png);
+.match-blog p{
+    font-size: 16px;
+    color: #6C6C6C;
+    margin-bottom: 10px;
 }
-.image-2{
-    background-image: url(images/players/player-2.png);
+.match-image img{
+    width: 500px;
+    height: 400px;
+   padding: 70px ;
 }
-.image-3{
-    background-image: url(images/players/player-3.png);
+/* ..................
+Footer Section
+.................. */
+.footer-section{
+    text-align: center;
 }
-.image-4{
-    background-image: url(images/players/player-4.png);
-}
-.image-5{
-    background-image: url(images/players/player-5.png);
-}
-.image-6{
-    background-image: url(images/players/player-6.png);
-}
-.image-7{
-    background-image: url(images/players/player-7.png);
-}
-.image-8{
-    background-image: url(images/players/player-8.png);
-}
-.image-9{
-    background-image: url(images/players/player-9.png);
-}
-.image-10{
-    background-image: url(images/players/player-10.png);
-}
-.image-11{
-    background-image: url(images/players/player-11.png);
-}
-.image-12{
-    background-image: url(images/players/player-12.png);
-} */
-
 .logo img{
     width: 483.87px;
     height: 110px;  
@@ -143,6 +116,4 @@ a{
     margin-right: 12px;
 }
 
-.footer-section{
-    text-align: center;
-}
+
