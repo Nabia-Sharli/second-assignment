@@ -38,8 +38,7 @@ a{
     height: 44px; 
 }
 .image img{
-    width: 556.01px;
-    height: 438px; 
+    width: 477px;
     margin-top: 153px;
     margin-bottom: 84px;
     transition: transform 3s;
@@ -86,17 +85,12 @@ a:hover{
 /* .................
 Match section
 ................... */
-.match-section{
-    background-image: url(images/Frame\ 57.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 .match{
     display: flex;
 }
 .match-blog{
-    padding-left: 182px;
-    padding-top: 150px;
+    padding: 150px 0 0 182px;
 }
 .match-title{
     font-size: 48px;
@@ -108,18 +102,14 @@ Match section
     margin-bottom: 10px;
 }
 .match-image img{
-    width: 500px;
-    height: 400px;
+    width: 567px;
+    height: 427px;
     padding: 70px ;
 }
 /*...................
     FiFa InFormation
     .................... */
-    .fifa-section{
-        background-image: url(images/top-banner.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+    
 .fifa-section h1{
     text-align: center;
     text-transform: uppercase;
@@ -142,7 +132,7 @@ Match section
  position: relative;
 margin: 20px;
 overflow: hidden;
-box-shadow: 10px 10px 10px gainsboro;
+/* box-shadow: 10px 10px 10px gainsboro; */
 }
     .photo img{
     width: 100%;
@@ -168,61 +158,51 @@ box-shadow: 10px 10px 10px gainsboro;
     transform: scale(1.5);
     transition: transform 5s;
     }
-/*.................
- Contact Information
- ................. */
-.contact-area{
+/* Champion Section */
+
+.history-heading{
+    text-align: center;
+}
+
+.history-heading img{
+    width: 10%;
+}
+
+.history-heading h1{
+    font-size: 35px;
+}
+
+.champions{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 50px 100px;
+}
+
+.champion{
+    width: 330px;
+    height: 474px;
+    background-color: #fff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+}
+
+.champion img{
     width: 100%;
-    height: 600px;
-    background-color: black;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.7;
 }
-.container{
-    display: flex;
-    justify-content: center;
+
+.champion h1{
+    margin-bottom: 0;
 }
-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 400px;
-    height: 500px;
-    margin-top: 50px;
-    border: 2px solid white;
+
+.champion h2{
+    color: tomato;
+    margin-top: 0;
 }
-form h1{
-    margin: 50px;
-    font-size: 50px;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+
+.champion p{
+    color:#6C6C6C ;
 }
-.box{
-    padding: 10px;
-    width: 60%;
-    margin: 20px;
-    background: transparent;
-    background-color: white;
-    border: 3px solid white;
-    border-radius: 20px;
-    outline: none;
-    color: black;
-}
-.submit{
-    padding: 10px 25px;
-    margin-top: 10px;
-    background-color: white;
-    border: none;
-    outline: none;
-    border-radius: 20px;
-    font-weight: 700;
-}
-.submit:hover{
-    background-color:tomato;
-    color: white;
-    transition: 0.5s ease-in-out;
-}
+
 /* ..................
 Footer Section
 .................. */
@@ -242,3 +222,103 @@ Footer Section
     margin-right: 12px;
 }
 
+
+@media only screen and (max-width: 668px) {
+    .banner{
+        flex-direction: column;
+    }
+    .title{
+        margin: 0 100px;
+    }
+
+    .half{
+        width: 50%;
+    }
+
+    .image img{
+        width: 100%;
+        margin: 50px 100px;
+    }
+
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 0 0 15px;
+    }
+
+    .match{
+        flex-direction: column;
+    }
+
+    .match-image img{
+        width: 100%;
+        padding: 0 0 0 5px;
+    }
+
+    .match-blog{
+        padding: 30px;
+    }
+
+    .photo-album{
+        margin-left: 20px;
+    }
+
+    .champions{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 0 0 20px;
+    }
+
+    .logo img{
+        width: 100%;
+    }
+}
+
+
+
+@media only screen and (min-width:668px) and (max-width: 992px) {
+    .banner{
+        flex-direction: column;
+    }
+    .title{
+        margin: 0 100px;
+    }
+
+    .half{
+        width: 50%;
+    }
+
+    .image img{
+        width: 100%;
+        margin: 50px 100px;
+    }
+
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 0 0 15px;
+    }
+
+    .match{
+        flex-direction: column;
+    }
+
+    .match-image img{
+        width: 100%;
+        padding: 0 0 0 5px;
+    }
+
+    .match-blog{
+        padding: 30px;
+    }
+
+    .photo-album{
+        margin-left: 20px;
+    }
+
+    .champions{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 0 0 20px;
+    }
+
+    .logo img{
+        width: 100%;
+    }
+}
